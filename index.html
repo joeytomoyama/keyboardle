@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="keyboard, piano, keyboardle, prüssing, pruessing, virtual piano, online piano, piano online">
+    <meta name="authos" content="Joey Pruessing">
+    <meta name="description" content="Dynamic Virtual Piano by Joey Prüssing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./logo.svg">
+    <link rel="stylesheet" href="index.css">
+    <title>keyboardle.com</title>
+</head>
+<body>
+    <div class="godframe">
+        <!-- <img src="godframe.svg" class="godframesvg"> -->
+        <div class="parallax layer1" data-speed="0.9">
+            <img src="./img/parallax/layer1.svg" class="para-image">
+        </div>
+        <div class="parallax layer2" data-speed="0.65">
+            <img src="./img/parallax/layer2.svg" class="para-image">
+        </div>
+        <div class="parallax layer3" data-speed="0.4">
+            <img src="./img/parallax/layer3.svg" class="para-image">
+        </div>
+        <!-- <div class="parallax layer4" data-speed="0.2">
+            <img src="./img/parallax/layer4.svg" class="para-image">
+        </div> -->
+    </div>
+    <div class="pageone">
+    <header>
+        <a href="https://keyboardle.com">
+        <div class="face">
+            <div class="logo">
+                <img class="img" src="./logo_white.svg" height="60" alt="logo">
+                <!-- <img class="img" src="./logo_white.svg" height="60" alt="logo"> -->
+            </div>
+            <div class="title"><p>keyboardle</p></div>
+        </div>
+        </a>
+        <!-- <div class="title"><a href="keyboardle.com"><p>keyboardle</p></a></div> -->
+        
+    </header>
+    <nav class="navbar">
+        <div class="pulltab"><div class="pullarrow"></div></div>
+        <div class="navflex">
+            <div class="page" id="allstar">allstar</div>
+            <div class="page" id="ghost">ghost</div>
+            <div class="page" id="little">little talks</div>
+            <div class="page" id="river">river flows<br>in you</div>
+            <div class="page" id="lie">love the way<br>you lie</div>
+            <div class="page" id="go">let her go</div>
+            <div class="page" id="bluebird">blue bird</div>
+            <div class="page" id="faded">faded</div>
+            <div class="page" id="still">&#128021;</div>
+            <div class="page" id="sample1">sample1</div>
+            <!-- <div class="page" id="sample2">sample2</div>
+            <div class="page" id="sample3">sample3</div>
+            <div class="page" id="sample4">sample4</div>
+            <div class="page" id="sample5">sample5</div>
+            <div class="page" id="sample6">sample6</div> -->
+        </div>
+    </nav>
+    <flexbox class="vert">
+        <div class="container">
+            <div class="bar counter"></div>
+            <div class="bar sheets"></div>
+            <div class="bar signature">A major</div>
+        </div>
+        <flexbox class="hori">
+            <div class="sig left"></div>
+            <div class="piano">
+                <div class="key wKey" id="c1"><audio src="./notes/3c.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey right-bound" id="cS1"><audio src="./notes/3c-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="d1"><audio src="./notes/3d.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey left-bound" id="dS1"><audio src="./notes/3d-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="e1"><audio src="./notes/3e.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                </div>
+                <div class="key wKey" id="f1"><audio src="./notes/3f.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey right-bound" id="fS1"><audio src="./notes/3f-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="g1"><audio src="./notes/3g.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey middle-bound" id="gS1"><audio src="./notes/3g-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="a1"><audio src="./notes/3a.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey left-bound" id="aS1"><audio src="./notes/3a-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="b1"><audio src="./notes/3b.mp3"></audio>
+                <div class="label"></div>
+            <div class="trigger"></div></div>
+
+                <div class="key wKey" id="c2"><audio src="./notes/4c.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey right-bound" id="cS2"><audio src="./notes/4c-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="d2"><audio src="./notes/4d.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey left-bound" id="dS2"><audio src="./notes/4d-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="e2"><audio src="./notes/4e.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                </div>
+                <div class="key wKey" id="f2"><audio src="./notes/4f.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey right-bound" id="fS2"><audio src="./notes/4f-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="g2"><audio src="./notes/4g.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey middle-bound" id="gS2"><audio src="./notes/4g-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="a2"><audio src="./notes/4a.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey left-bound" id="aS2"><audio src="./notes/4a-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="b2"><audio src="./notes/4b.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                </div>
+
+                <div class="key wKey" id="c3"><audio src="./notes/5c.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey right-bound" id="cS3"><audio src="./notes/5c-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="d3"><audio src="./notes/5d.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey left-bound" id="dS3"><audio src="./notes/5d-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="e3"><audio src="./notes/5e.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                </div>
+                <div class="key wKey" id="f3"><audio src="./notes/5f.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey right-bound" id="fS3"><audio src="./notes/5f-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="g3"><audio src="./notes/5g.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey middle-bound" id="gS3"><audio src="./notes/5g-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="a3"><audio src="./notes/5a.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                    <div class="key bKey left-bound" id="aS3"><audio src="./notes/5a-.mp3"></audio>
+                        <div class="label"></div>
+                        <div class="trigger"></div>
+                    </div>
+                </div>
+                <div class="key wKey" id="b3"><audio src="./notes/5b.mp3"></audio>
+                    <div class="label"></div>
+                    <div class="trigger"></div>
+                </div>
+
+                <div class="key wKey" id="c4"><audio src="./notes/6c.mp3"></audio><div class="label"></div>
+                    <div class="trigger"></div></div>
+                <div class="extra"></div>
+            </div>
+            <div class="sig right"></div>
+        </flexbox>
+    </flexbox>
+    <div class="noticeContainer">
+        <div class="notice"></div>
+    </div>
+    </div>
+    <div class="pagetwo">
+        <!-- <div class="cover"></div> -->
+        <h1>ABOUT</h1>
+        <p>learn music theory and practice touch typing with the dynamic virtual
+            piano keyboardle.<br><br>
+            it makes use of the fact that music is composed in key signatures,<br>this means that only certain notes will be played for any given song at a time.<br><br><br>
+            thanks for playing.
+        </p>
+    </div>
+    <div class="pagethree">
+        <h1>DEVELOPMENT</h1>
+        <p>keyboardle was made entirely in HTML, CSS and vanilla JS as my winter break project, no external libraries were used.<br><br>
+            approximately 1000 lines of code were written in the process.<br><br>
+            request songs and send feedback at j.pruessing28@gmail.com.
+        </p>
+    </div>
+    <footer><p>𝅘𝅥𝅮 2022 Joey Prüssing</p></footer>
+    <script src="index.js">
+    </script>
+</body>
+</html>
